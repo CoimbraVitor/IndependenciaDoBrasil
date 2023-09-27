@@ -1,0 +1,108 @@
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para o cabeçalho */
+header {
+  background-color: #009688;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.cabecalho-titulo {
+  font-size: 24px;
+  margin: 5px 0;
+  animation: slideIn 6s linear infinite;
+}
+
+.cabecalho-imagem {
+  max-width: 80px;
+}
+
+/* Estilos para o menu de navegação */
+nav {
+  background-color: #333;
+}
+
+.menu-navegacao {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.menu-navegacao li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.menu-navegacao a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.menu-navegacao a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para a seção de destaque */
+.destaque {
+  background-color: #ffcc00;
+  padding: 20px;
+  text-align: center;
+}
+
+.destaque h3 {
+  font-size: 24px;
+  margin: 0;
+  color: #333;
+}
+
+/* Estilos para a citação */
+blockquote {
+  background-color: #009688;
+  color: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+blockquote p {
+  font-size: 18px;
+  font-style: italic;
+  margin: 0;
+}
+
+blockquote footer {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Estilos para o rodapé */
+footer {
+  background-color: #009688;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.icone {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.copyright {
+  font-size: 14px;
+  margin: 0;
+  vertical-align: middle;
+}
